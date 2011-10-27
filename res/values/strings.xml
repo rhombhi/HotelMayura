@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, HotelMayuraActivity!</string>
-    <string name="app_name">HotelMayura</string>
+    <string name="app_name">Hotel Mayura Amrit</string>
+    <!-- Splashscreen -->
+    <string name="splashscreen_title">Hotel Mayura Amrit</string>
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <!-- Menu -->
+    <string name="menu_title">Menu</string>
+    <!-- Contact Us -->
+    <string name="contact_us_title">Contact Us</string>
+    <!-- About Us -->
+    <string name="about_us_title">About Us</string>
+    <string name="about_us_text">Traditional foods are an enduring part of our culture. Traditional taste preservation has become a critical undertaking for Mayura Restaurant Inc and we are proud of the work that we have done to preserve and restore our traditional food. The word Mayura means peacock ( sanskrit ), the synonym for elegance and grace. Living up to one\'s name is not at all that simple. We at Mayura belive that food is a celebration of life. Our dishes have an extra magic, and we are sure that it will delight your sense of taste and leave you happier too which is exactly what good food should do. Our food is inspired by the authentic home cooking of beautiful and taste-rich India, where our chefs are specially trained and have good experience. Food is our passion, prepared for you always with devotion, love, and the finest ingredients in Seperate Vegetarian and Non-Vegetarian Kitchens, which is guaranteed to satisfy. We look forward to welcoming you in the Mayura Indian restaurant for one night dinner. Enjoy the quality of our fine food, service and atmosphere and we look forward to you visiting us again and again as one of our regular guests. Mayura traditional Indian restaurant is a relaxed place that will give you a decent meal. If you\'re looking for "Authentic south Indian cuisine" with something pretty good to eat in nice surroundings, many people find themselves tasting the wonderful dishes in Culver City after a trip to their favorite Mayura Indian restaurant. You will find a large choice of Indian dishes on our extensive MENU. Our menu, always have a choice of daily specialties. Very nice ambiance, first class cooking and perfectly served with good quality at reasonable prices. Indian food-lover’s dream restaurant ( Mayura ) has been consistently providing you the traditional range of Indian dishes.	 Each menu is tailored specifically for your party and prepared with the flair and attention to detail that is characteristic of Mayura Indian restaurant.	 Traditional Indian Food is served using the best seasonal Indian ingredients in our restaurant. Don\'t forget to have a look at the daily specialty board where you will find some pleasant surprises. Mayura Indian restaurant is also a place for family vacations where you will enjoy the natural kind of foods.</string>
+    <!-- Reviews -->
+    <string name="reviews_title">Reviews</string>
 
 </resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="1">
+ 		<TableRow 
+ 			android:id="@+id/menu_list_row" 
+ 			android:layout_width="fill_parent" 
+ 			android:layout_height="wrap_content">
+ 			<Button
+				android:id="@+id/item_pic"
+				android:layout_width="50px"
+				android:layout_height="50px"
+				android:layout_margin="10px"
+				android:focusable="false"/>
+ 			<TextView 
+	            android:id="@+id/item_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="10px"
+	            android:textSize="20px"
+	            android:layout_gravity="center_vertical"/>
+			</TableRow>
+ 	</TableLayout>
+</RelativeLayout>
