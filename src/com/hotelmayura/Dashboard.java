@@ -42,7 +42,7 @@ public class Dashboard extends Activity
 					startActivity(menuIntent);
 					break;
 				case 1:
-					Intent contactUsIntent = new Intent(CONTEXT, ContactUs.class);
+					Intent contactUsIntent = new Intent(CONTEXT, ContactUsTabs.class);
 					startActivity(contactUsIntent);
 					break;
 				case 2:

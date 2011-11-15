@@ -28,9 +28,17 @@
         </activity>
         <activity
             android:label="@string/contact_us_title"
-            android:name=".ContactUs">
+            android:name=".ContactUsTabs">
         </activity>
         <activity
+            android:label="@string/contact_us_title"
+            android:name=".ContactUsLA">
+        </activity>
+                    <activity
+            android:label="@string/contact_us_title"
+            android:name=".ContactUsCC">
+        </activity>
+            <activity
             android:label="@string/menu_title"
             android:name=".Menu">
         </activity>

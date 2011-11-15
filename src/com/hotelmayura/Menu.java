@@ -3,7 +3,6 @@ package com.hotelmayura;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class Menu extends Activity 
