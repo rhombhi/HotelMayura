@@ -2,8 +2,16 @@ package com.hotelmayura;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class Menu extends Activity 
 {
@@ -28,19 +36,30 @@ public class Menu extends Activity
         		R.drawable.wine
         };
         
-        String items[]=
-        {
-        		"Appetizers", "Vegeterian Dishes", "Dosas",
-        		"Mayura Utthapam", "Chicken Dishes", "Other meat and sea food",
-        		"Lunch and Dinner Specials", "Mayura specials", "Rice Dishes",
-        		"Desserts", "Baverages", "Indian Breads", 
-        		"Indian Side Orders", "Indian Soups and Salads", "Beers",
-        		"Wine"
-        		
-        };
+        Resources res = getResources();
+
+        TypedArray mi = res.obtainTypedArray(R.array.menu_items);
+        
+        String items[]= new String[mi.length()];
+        for(int i=0;i<mi.length();i++)
+        	items[i]=mi.getString(i);
+
         
         MenuListAdapter m = new MenuListAdapter(CONTEXT, R.layout.menu_list_layout, R.id.item_name, items, icons);
         menuList.setAdapter(m);
+        
+        menuList.setOnItemClickListener(new OnItemClickListener()
+        {
+			@Override
+			public void onItemClick(AdapterView<?> adapView, View v, int position, long id) 
+			{
+				String itemName=(((TextView)v.findViewById(R.id.item_name)).getText()).toString();
+				Log.v(CONTEXT.getClass().getSimpleName()+"--","tiem name:"+itemName);
+				Intent menuDetailIntent = new Intent(CONTEXT,MenuDetail.class);
+				menuDetailIntent.putExtra("itemName", itemName);
+				startActivity(menuDetailIntent);
+			}
+		});
         
     }
 }

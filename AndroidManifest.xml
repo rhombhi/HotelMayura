@@ -38,9 +38,13 @@
             android:label="@string/contact_us_title"
             android:name=".ContactUsCC">
         </activity>
-            <activity
+        <activity
             android:label="@string/menu_title"
             android:name=".Menu">
+        </activity>
+        <activity
+            android:label="@string/menu_detail_title"
+            android:name=".MenuDetail">
         </activity>
         <activity
             android:label="@string/reviews_title"

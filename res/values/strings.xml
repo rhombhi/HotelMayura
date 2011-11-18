@@ -7,6 +7,7 @@
     <string name="dashboard_title">Dashboard</string>
     <!-- Menu -->
     <string name="menu_title">Menu</string>
+    <string name="menu_detail_title">Extended Menu</string>
     <!-- Contact Us -->
     <string name="contact_us_title">Contact Us</string>
     <string name="address_cc">Mayura Restaurant Inc, 10406 Venice Boulevard,Culver City, CA 90232</string>
@@ -21,4 +22,7 @@
     <!-- Reviews -->
     <string name="reviews_title">Reviews</string>
 
+    <!-- Color -->
+	<color name="gray">#625D5D</color>
+        
 </resources>

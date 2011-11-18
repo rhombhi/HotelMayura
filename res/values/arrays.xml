@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_items">
+    	<item>"Appetizers"</item>
+    	<item>"Vegeterian Dishes"</item>
+    	<item>"Dosas"</item>
+    	<item>"Mayura Utthapam"</item>
+    	<item>"Chicken Dishes"</item>
+    	<item>"Other meat and sea food"</item>
+    	<item>"Lunch and Dinner Specials"</item>
+    	<item>"Mayura specials"</item>
+    	<item>"Rice Dishes"</item>
+    	<item>"Desserts"</item>
+    	<item>"Baverages"</item>
+    	<item>"Indian Breads"</item>
+    	<item>"Indian Side Orders"</item>
+    	<item>"Indian Soups and Salads"</item>
+    	<item>"Beers"</item>
+    	<item>"Wine"</item>
+    </array>
+    <array name="menu_items_drawables">
+    	<item>@drawable/appetizers</item>
+    	<item>@drawable/vegeterian_dishes</item>
+    	<item>@drawable/dosas</item>
+    	<item>@drawable/mayura_utthapam</item>
+    	<item>@drawable/chicken_dishes</item>
+    	<item>@drawable/other_meat_and_sea_food</item>
+    	<item>@drawable/lunch_and_dinner_specials</item>
+    	<item>@drawable/mayura_specials</item>
+    	<item>@drawable/rice_dishes</item>
+    	<item>@drawable/desserts</item>
+    	<item>@drawable/baverages</item>
+    	<item>@drawable/indian_breads</item>
+    	<item>@drawable/indian_side_orders</item>
+    	<item>@drawable/indian_soups_and_salads</item>
+    	<item>@drawable/beers</item>
+    	<item>@drawable/wine</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_description">
+    	<item>"Deep fried crispy crust stuffed w/ mixed vegetables"</item>
+    	<item>"Veggies dipped in flour and deep fried w/spices"</item>
+    	<item>"Steamed rice and urad lentil patties served w/ chutneys and sambhar"</item>
+    	<item>"2 pieces well-dipped in sambhar"</item>
+    	<item>"Deep fried lentil donuts"</item>
+    	<item>"A combination of 1 idli and 1 vada"</item>
+    	<item>"Fried lentil donuts dipped in Sambhar"</item>
+    	<item>"Fried lentil donuts dipped in rasam"</item>
+    	<item>"Fried lentil donuts dipped in special yogurt sauce, cilantro garnish"</item>
+    	<item>"Mixed veggie patties w/ vermicelli and bread crumbs"</item>
+    	<item>"2 pieces of chana dal vada"</item>
+    	<item>"Sliced marinated onion fixed with chickpea flour 6 pcs"</item>
+    	<item>"Mix of fresh tomatoes,onions,boiled potatoes and tamarind chutney"</item>
+    	<item>"Whole jalapeno fried in chickpea flour"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_prices">
+    	<item>"$3.95"</item>
+    	<item>"$3.95"</item>
+    	<item>"$3.95"</item>
+    	<item>"$4.50"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="vegetable_dishes_items">
+    	<item>"Aloo Gobi"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"	Aloo Palak"</item>
+    	<item>"Chana Masala"</item>
+    	<item>"Mushroom Masala"</item>
+    	<item>"Daal Masala"</item>
+    	<item>"Vegetable Korma"</item>
+    	<item>"Special Vegetable Curry"</item>
+    	<item>"Palak Paneer"</item>
+    	<item>"Mutter Paneer"</item>
+    	<item>"Paneer Butter Masala"</item>
+    	<item>"Bhindi Masala"</item>
+    	<item>"Kerala Special Avial"</item>
+    	<item>"Malai Kofta"</item>
+    </array>
+    <array name="vegetable_dishes_items">
+    	<item>"Aloo Gobi"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"	Aloo Palak"</item>
+    	<item>"Chana Masala"</item>
+    	<item>"Mushroom Masala"</item>
+    	<item>"Daal Masala"</item>
+    	<item>"Vegetable Korma"</item>
+    	<item>"Special Vegetable Curry"</item>
+    	<item>"Palak Paneer"</item>
+    	<item>"Mutter Paneer"</item>
+    	<item>"Paneer Butter Masala"</item>
+    	<item>"Bhindi Masala"</item>
+    	<item>"Kerala Special Avial"</item>
+    	<item>"Malai Kofta"</item>
+    </array>
+	<array name="vegetable_dishes_items">
+    	<item>"Aloo Gobi"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"	Aloo Palak"</item>
+    	<item>"Chana Masala"</item>
+    	<item>"Mushroom Masala"</item>
+    	<item>"Daal Masala"</item>
+    	<item>"Vegetable Korma"</item>
+    	<item>"Special Vegetable Curry"</item>
+    	<item>"Palak Paneer"</item>
+    	<item>"Mutter Paneer"</item>
+    	<item>"Paneer Butter Masala"</item>
+    	<item>"Bhindi Masala"</item>
+    	<item>"Kerala Special Avial"</item>
+    	<item>"Malai Kofta"</item>
+    </array>
+        <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+    <array name="appetizers_items">
+    	<item>"Vegetable Samosa (2)"</item>
+    	<item>"Mixed Vegetable Pakora"</item>
+    	<item>"Idly (2)"</item>
+    	<item>"Idly Sambhar"</item>
+    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Idly Vada Combo"</item>
+    	<item>"Sambhar Vada (2)"</item>
+    	<item>"Rasam Vada (2)"</item>
+    	<item>"Dahi Vada (2)"</item>
+    	<item>"Vegetable Cutlet (2)"</item>
+    	<item>"Baverages"</item>
+    	<item>"Onion Pakora"</item>
+    	<item>"Bhel Puri"</item>
+    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Chicken Roll"</item>
+    	<item>"Seekh Kebab Roll"</item>
+    	<item>"Assorted Appetizer Basket"</item>
+    </array>
+</resources>
