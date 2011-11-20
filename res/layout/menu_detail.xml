@@ -7,10 +7,11 @@
 		android:id="@+id/menu_detail_title"
 		android:layout_width="fill_parent" 
 	    android:layout_height="wrap_content" 
-        android:textSize="20px"
+        android:textSize="25px"
         android:background="@color/gray"/>
 	<ListView 
 		android:id="@+id/menu_detail_list"
 		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"/>  
+		android:layout_height="fill_parent"
+		android:layout_below="@id/menu_detail_title"/>  
 </RelativeLayout>

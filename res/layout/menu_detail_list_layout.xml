@@ -8,13 +8,14 @@
 		android:layout_width="100px"
 		android:layout_height="100px"
 		android:layout_margin="10px"
-		android:focusable="false"/>
+		android:focusable="false"
+		android:background="@drawable/appetizers"/>
 	<TextView 
         android:id="@+id/detail_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="10px"
-        android:textSize="20px"
+        android:textSize="25px"
         android:layout_gravity="center_vertical"
 		android:layout_toRightOf="@id/detail_item_pic"/>
 	<TextView 
@@ -22,9 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="10px"
-        android:textSize="20px"
+        android:textSize="25px"
         android:layout_gravity="center_vertical"
-		android:layout_toRightOf="@id/detail_item_name"/>
+		android:layout_alignParentRight="true"
+		android:textColor="@color/white"/>
 	<TextView 
         android:id="@+id/detail_item_description"
         android:layout_width="wrap_content"
@@ -33,5 +35,7 @@
         android:textSize="20px"
         android:layout_gravity="center_vertical"
 		android:layout_toRightOf="@id/detail_item_pic"
-		android:layout_below="@id/detail_item_name"/>
+		android:layout_below="@id/detail_item_name"
+		android:layout_marginTop="5px"
+		android:textColor="@color/gray"/>
 </RelativeLayout>

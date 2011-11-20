@@ -24,5 +24,6 @@
 
     <!-- Color -->
 	<color name="gray">#625D5D</color>
-        
+	<color name="white">#FFFFFF</color>
+	    
 </resources>

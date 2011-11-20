@@ -44,6 +44,7 @@ public class Menu extends Activity
         for(int i=0;i<mi.length();i++)
         	items[i]=mi.getString(i);
 
+//        int icons[]= res.getIntArray(R.array.menu_items_drawables);
         
         MenuListAdapter m = new MenuListAdapter(CONTEXT, R.layout.menu_list_layout, R.id.item_name, items, icons);
         menuList.setAdapter(m);
