@@ -23,25 +23,31 @@ public class MenuDetail extends Activity
      
         title = (TextView)findViewById(R.id.menu_detail_title);
         menuDetailList = (ListView) findViewById(R.id.menu_detail_list);
-
         
         String itemName = ((Activity) CONTEXT).getIntent().getExtras().getString("itemName");
         Log.v(CONTEXT.getClass().getSimpleName()+"--","tiem name:"+itemName);
         title.setText(itemName);
         
+        String in=itemName.toLowerCase();
+        in=in.replace(" ", "_");
+        Log.v(CONTEXT.getClass().getSimpleName()+"--","in:"+in);
+        
         Resources res = getResources();
 
-        TypedArray dItems = res.obtainTypedArray(R.array.appetizers_items);
+        int itemId = res.getIdentifier(in+"_items", "array", "com.hotelmayura");
+        TypedArray dItems = res.obtainTypedArray(itemId);
         String items[]= new String[dItems.length()];
         for(int i=0;i<dItems.length();i++)
         	items[i]=dItems.getString(i);
 
-        TypedArray dDescription = res.obtainTypedArray(R.array.appetizers_description);
+        int descriptionId = res.getIdentifier(in+"_description", "array", "com.hotelmayura");
+        TypedArray dDescription = res.obtainTypedArray(descriptionId);
         String description[]= new String[dDescription.length()];
         for(int i=0;i<dDescription.length();i++)
         	description[i]=dDescription.getString(i);
 
-        TypedArray dPrices = res.obtainTypedArray(R.array.appetizers_prices);
+        int priceId = res.getIdentifier(in+"_prices", "array", "com.hotelmayura");
+        TypedArray dPrices = res.obtainTypedArray(priceId);
         String prices[]= new String[dPrices.length()];
         for(int i=0;i<dPrices.length();i++)
         	prices[i]=dPrices.getString(i);

@@ -14,10 +14,11 @@
         android:id="@+id/detail_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10px"
+        android:layout_marginRight="45px"
         android:textSize="25px"
         android:layout_gravity="center_vertical"
-		android:layout_toRightOf="@id/detail_item_pic"/>
+		android:layout_toRightOf="@id/detail_item_pic"
+		android:textColor="@color/gray"/>
 	<TextView 
         android:id="@+id/detail_item_price"
         android:layout_width="wrap_content"
@@ -37,5 +38,6 @@
 		android:layout_toRightOf="@id/detail_item_pic"
 		android:layout_below="@id/detail_item_name"
 		android:layout_marginTop="5px"
-		android:textColor="@color/gray"/>
+		android:textColor="@color/white"
+		android:textStyle="italic"/>
 </RelativeLayout>

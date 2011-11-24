@@ -4,7 +4,7 @@
     	<item>"Appetizers"</item>
     	<item>"Vegeterian Dishes"</item>
     	<item>"Dosas"</item>
-    	<item>"Mayura Utthapam"</item>
+    	<item>"Mayura Uthapam"</item>
     	<item>"Chicken Dishes"</item>
     	<item>"Other meat and sea food"</item>
     	<item>"Lunch and Dinner Specials"</item>
@@ -18,39 +18,21 @@
     	<item>"Beers"</item>
     	<item>"Wine"</item>
     </array>
-    <!-- array name="menu_items_drawables">
-    	<item>R.drawable.appetizers</item>
-    	<item>R.drawable.vegeterian_dishes</item>
-    	<item>R.drawable.dosas</item>
-    	<item>R.drawable.mayura_utthapam</item>
-    	<item>R.drawable.chicken_dishes</item>
-    	<item>R.drawable.other_meat_and_sea_food</item>
-    	<item>R.drawable.lunch_and_dinner_specials</item>
-    	<item>R.drawable.mayura_specials</item>
-    	<item>R.drawable.rice_dishes</item>
-    	<item>R.drawable.desserts</item>
-    	<item>R.drawable.baverages</item>
-    	<item>R.drawable.indian_breads</item>
-    	<item>R.drawable.indian_side_orders</item>
-    	<item>R.drawable.indian_soups_and_salads</item>
-    	<item>R.drawable.beers</item>
-    	<item>R.drawable.wine</item>
-    </array-->
     <array name="appetizers_items">
     	<item>"Vegetable Samosa (2)"</item>
     	<item>"Mixed Vegetable Pakora"</item>
     	<item>"Idly (2)"</item>
     	<item>"Idly Sambhar"</item>
-    	<item>"Medhu Vada (2 pcs)"</item>
+    	<item>"Medhu Vada (2)"</item>
     	<item>"Idly Vada Combo"</item>
     	<item>"Sambhar Vada (2)"</item>
     	<item>"Rasam Vada (2)"</item>
     	<item>"Dahi Vada (2)"</item>
     	<item>"Vegetable Cutlet (2)"</item>
-    	<item>"Baverages"</item>
+    	<item>"Parrippu Vada"</item>
     	<item>"Onion Pakora"</item>
     	<item>"Bhel Puri"</item>
-    	<item>"Hot Chili Baaji ( 6 )"</item>
+    	<item>"Hot Chili Baaji (6)"</item>
     	<item>"Chicken Roll"</item>
     	<item>"Seekh Kebab Roll"</item>
     	<item>"Assorted Appetizer Basket"</item>
@@ -92,7 +74,7 @@
     	<item>"$4.95"</item>
     	<item>"$10.95"</item>
     </array>
-    <array name="vegetable_dishes_items">
+    <array name="vegeterian_dishes_items">
     	<item>"Aloo Gobi"</item>
     	<item>"Aloo Palak"</item>
     	<item>"Chana Masala"</item>
@@ -107,7 +89,7 @@
     	<item>"Kerala Special Avial"</item>
     	<item>"Malai Kofta"</item>
     </array>
-    <array name="vegetable_dishes_description">
+    <array name="vegeterian_dishes_description">
     	<item>"Potato and cauliflower cooked in savory sauce"</item>
     	<item>"Potato and spinach cooked in aromatic sauce"</item>
     	<item>"Garbanzo beans cooked in exotic spices"</item>
@@ -122,7 +104,7 @@
     	<item>"Fresh veggies ckd w/coconut sauces and spices"</item>
     	<item>"Vagetrian cheese balls in tomato sauce"</item>
     </array>
-	<array name="vegetable_dishes_prices">
+	<array name="vegeterian_dishes_prices">
     	<item>"$7.95"</item>
     	<item>"$7.95"</item>
     	<item>"$7.95"</item>
@@ -146,7 +128,7 @@
     	<item>"Paper Dosa"</item>
     	<item>"Paper Masala Dosa"</item>
     	<item>"Plain Rava Dosa"</item>
-    	<item>"Rava Dosa w/ Onion and Chili"</item>
+    	<item>"Rava Dosa with Onion and Chili"</item>
     	<item>"Special Rava Masala dosa"</item>
     	<item>"Cheese Dosa"</item>
     	<item>"Spring Dosa"</item>
@@ -194,7 +176,19 @@
     	<item>"$7.95"</item>
     	<item>"$8.95"</item>
     </array>
-    <array name="mayura_uttapam_items">
+    <array name="mayura_uthapam_items">
+    	<item>"Plain Uthappam"</item>
+    	<item>"Tomato and Peas Uthappam"</item>
+    	<item>"Onion Uthappam"</item>
+    	<item>"Onion and Peas Uthappam"</item>
+    	<item>"Onion and Hot Chili Uthappam"</item>
+    	<item>"Onion Tomoto and Chili Uthappam"</item>
+    	<item>"Vegetable Uthappam"</item>
+    	<item>"Paneer and Peas Uthappam"</item>
+    	<item>"Mayura Special Cheese Uthappam"</item>
+    	<item>"Five Cocktail Uthappam with Channa"</item>
+   	</array>
+    <array name="mayura_uthapam_description">
     	<item>"Plain Uthappam"</item>
     	<item>"Tomato and Peas Uthappam"</item>
     	<item>"Onion Uthappam"</item>
@@ -202,23 +196,11 @@
     	<item>"Onion and Hot Chili Uthappam"</item>
     	<item>"Onion , Tomoto and Chili Uthappam"</item>
     	<item>"Vegetable Uthappam"</item>
-    	<item>"aneer and Peas Uthappam"</item>
+    	<item>"Paneer and Peas Uthappam"</item>
     	<item>"Mayura Special Cheese Uthappam"</item>
     	<item>"5 Cocktail Uthappam w/ Channa"</item>
    	</array>
-    <array name="mayura_uttapam_description">
-    	<item>"Plain Uthappam"</item>
-    	<item>"Tomato and Peas Uthappam"</item>
-    	<item>"Onion Uthappam"</item>
-    	<item>"Onion and Peas Uthappam"</item>
-    	<item>"Onion and Hot Chili Uthappam"</item>
-    	<item>"Onion , Tomoto and Chili Uthappam"</item>
-    	<item>"Vegetable Uthappam"</item>
-    	<item>"aneer and Peas Uthappam"</item>
-    	<item>"Mayura Special Cheese Uthappam"</item>
-    	<item>"5 Cocktail Uthappam w/ Channa"</item>
-   	</array>
-        <array name="mayura_uttapam_prices">
+        <array name="mayura_uthapam_prices">
     	<item>"$5.95"</item>
     	<item>"$6.95"</item>
     	<item>"$6.95"</item>
@@ -237,7 +219,7 @@
     	<item>"Chicken Tikka Masala"</item>
     	<item>"Boneless Chicken Tikka"</item>
     	<item>"Chicken Tandoori"</item>
-    	<item>"Tandoori Mix w/ kebab"</item>
+    	<item>"Tandoori Mix with kebab"</item>
     	<item>"Kerala Special Chicken Curry"</item>
     	<item>"Butter Chicken"</item>
    	</array>
@@ -271,7 +253,7 @@
     	<item>"Kerala Spl Fish Curry"</item>
     	<item>"Fish fry"</item>
     	<item>"Shrimp Masala"</item>
-    	<item>"Lamb Kabab"</item>
+    	<item>"Lamb Kebab"</item>
    	</array>
    	<array name="other_meat_and_sea_food_description">
     	<item>"Cooked in a delicious blend of spices"</item>
@@ -294,17 +276,28 @@
     	<item>"$9.95"</item>
    	</array>
     <array name="lunch_and_dinner_specials_items">
-    	<item>"Curry (kebab)"</item>
+    	<item>"Curry kebab"</item>
     	<item>"Chicken Tikka and Daal Masala"</item>
-    	<item>"Chicken Tikka and Allo Palak"</item>
+    	<item>"Chicken Tikka and Aloo Palak"</item>
 		<item>"Chicken Tikka Masala"</item>
     	<item>"Mixed Vegetables"</item>
     	<item>"Seekh Kebab and Chana Masala"</item>
-    	<item>"Lamb Korma and Allo Palak"</item>
+    	<item>"Lamb Korma and Aloo Palak"</item>
     	<item>"Chicken Biryani"</item>
     	<item>"Dum Biryani"</item>
    	</array>
-    <array name="lunch_and_dinner_specials_prices">
+    <array name="lunch_and_dinner_specials_description">
+    	<item>"Curry containing long pieces of chicken"</item>
+    	<item>"Barbequeued chicken and daal made in indian spices"</item>
+    	<item>"Barbequeued chicken and potato cooked in grinded spinach"</item>
+		<item>"Barbequeued chicken with indian spices"</item>
+    	<item>"A mix of vegetable including cabbage, carrot, beans, cauliflower and corn"</item>
+    	<item>"Minced meat with spices and grilled on skewers and Chana made in onion gravy"</item>
+    	<item>"A mild lamb curry with mutton pieces marinated in yogurt and mild spices, cooked in onion,tomato,poppy seeds and coconut based gravy and Allo Palak"</item>
+    	<item>"Rice cooked with vegetables and pieces of chicken"</item>
+    	<item>"Rice with vegetables cooked over slow heat"</item>
+   	</array>
+        <array name="lunch_and_dinner_specials_prices">
     	<item>"$9.95"</item>
     	<item>"$8.95"</item>
     	<item>"$8.95"</item>
@@ -316,13 +309,13 @@
     	<item>"$9.95"</item>
 	</array>
     <array name="mayura_specials_items">
-    	<item>"Choice of Dosa or Uthappam w/ Idly and Vada"</item>
+    	<item>"Choice of Dosa or Uthappam with Idly and Vada"</item>
     	<item>"Kerala Special"</item>
-    	<item>"Kerala Sp Appam w/ Curry"</item>
-    	<item>"Kerala Sp Appam w/ Fish curry"</item>
+    	<item>"Kerala Sp Appam with Curry"</item>
+    	<item>"Kerala Sp Appam with Fish curry"</item>
     	<item>"Chana Bhatura"</item>
     	<item>"Poori Masala"</item>
-    	<item>"Paratha w/ Korma"</item>
+    	<item>"Paratha with Korma"</item>
      </array>
      <array name="mayura_specials_description">
     	<item>"Any of these South Indian dishes"</item>
@@ -351,7 +344,7 @@
     	<item>"Yogurt Rice"</item>
     	<item>"Tamarind Rice"</item>
     	<item>"Bisi Bele Bath"</item>
-    	<item>"Ven Pongal-Ckd w/lentils"</item>
+    	<item>"Ven Pongal Ckd with lentils"</item>
     	<item>"Mayura Special Fried Rice"</item>
     	<item>"Mayura Special Shrimp Biryani"</item>
      </array>
@@ -383,7 +376,7 @@
     </array>
     <array name="desserts_items">
     	<item>"Carrot Halwa"</item>
-    	<item>"Carrot Halwa w/ Ice cream"</item>
+    	<item>"Carrot Halwa with Ice cream"</item>
     	<item>"Gulab Jamun"</item>
     	<item>"Ras Malai"</item>
     	<item>"Madras Payasam"</item>
@@ -411,7 +404,7 @@
          <array name="baverages_items">
     	<item>"Masala Chai"</item>
     	<item>"Madras Coffee"</item>
-    	<item>"Lassi (Mango, sweet, salt)"</item>
+    	<item>"Lassi (Mango sweet salt)"</item>
     	<item>"Shakes (Vanilla, mango, banana, rose)"</item>
     	<item>"Fresh Limesoda"</item>
     	<item>"Soft Drinks"</item>
@@ -440,12 +433,12 @@
     </array>
      <array name="indian_breads_items">
     	<item>"Plain Naan"</item>
-    	<item>"Garlic/Ginger/Kulcha Naan"</item>
+    	<item>"Garlic /Ginger /Kulcha Naan"</item>
     	<item>"Onion Naan"</item>
     	<item>"Butter Naan"</item>
     	<item>"Paratha"</item>
     	<item>"Aloo Paratha"</item>
-    	<item>"Poori(2)"</item>
+    	<item>"Poori (2)"</item>
     	<item>"Chapathi"</item>
     	<item>"Roti"</item>
      </array>
@@ -474,7 +467,7 @@
       <array name="indian_side_orders_items">
     	<item>"Raita"</item>
     	<item>"Rice"</item>
-    	<item>"Papadum(3)"</item>
+    	<item>"Papadum (3)"</item>
       </array>
       <array name="indian_side_orders_description">
     	<item>"Yogurt w/ Cucumber and Onion"</item>
@@ -508,14 +501,14 @@
     	<item>"$3.95"</item>
       </array>
      <array name="beers_items">
-    	<item>"Flying Horse- India"</item>
-    	<item>"Taj Mahal -India"</item>
-    	<item>"Kingfisher-India"</item>
+    	<item>"Flying Horse India"</item>
+    	<item>"Taj Mahal India"</item>
+    	<item>"Kingfisher India"</item>
     	<item>"Himalayan"</item>
-    	<item>"Chimay Triple-Belgium"</item>
-    	<item>"Fuller's London Pride- England"</item>
-    	<item>"Allagash White- Maine"</item>
-    	<item>"Erdinger Weissbier non-alcoholic -Germany"</item>
+    	<item>"Chimay Triple Belgium"</item>
+    	<item>"Fullers London Pride England"</item>
+    	<item>"Allagash White Maine"</item>
+    	<item>"Erdinger Weissbier nonalcoholic Germany"</item>
      </array>
      <array name="beers_description">
     	<item>"--"</item>
@@ -538,13 +531,13 @@
     	<item>"$4.00"</item>
     </array>
     <array name="wine_items">
-    	<item>"Bridlewood Estate Winery Chardonnay -Monterey"</item>
-    	<item>"Barnard Griffun White Riesling-Columbia valley"</item>
-    	<item>"Red Rock Winery Merlot-California"</item>
-    	<item>"Bridlewood Estate Winery Syrah -Central Coast"</item>
-    	<item>"The Crusher Cabernet Sauvignon -Clarksburg"</item>
-    	<item>"Peachy Canyon Zinfandel -Paso Robles"</item>
-    	<item>"Erdinger Weissbier non-alcoholic -Germany"</item>
+    	<item>"Bridlewood Estate Winery Chardonnay Monterey"</item>
+    	<item>"Barnard Griffun White Riesling Columbia valley"</item>
+    	<item>"Red Rock Winery Merlot California"</item>
+    	<item>"Bridlewood Estate Winery Syrah Central Coast"</item>
+    	<item>"The Crusher Cabernet Sauvignon Clarksburg"</item>
+    	<item>"Peachy Canyon Zinfandel Paso Robles"</item>
+    	<item>"Erdinger Weissbier non-alcoholic Germany"</item>
      </array>
      <array name="wine_description">
     	<item>"--"</item>
@@ -555,7 +548,7 @@
     	<item>"--"</item>
     	<item>"--"</item>
      </array>
-     <array name="wine_pricess">
+     <array name="wine_prices">
     	<item>"--"</item>
     	<item>"--"</item>
     	<item>"--"</item>

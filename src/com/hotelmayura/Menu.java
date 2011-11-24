@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,23 +27,29 @@ public class Menu extends Activity
         
         menuList = (ListView) findViewById(R.id.menu_list);
         
-        int icons[]=
-        {
-        		R.drawable.appetizers, R.drawable.vegeterian_dishes, R.drawable.dosas,
-        		R.drawable.mayura_uttapam, R.drawable.chicken_dishes, R.drawable.other_meat_and_sea_food,
-        		R.drawable.lunch_and_dinner_specials, R.drawable.mayura_specials, R.drawable.rice_dishes,
-        		R.drawable.desserts, R.drawable.baverages, R.drawable.indian_breads,
-        		R.drawable.indian_side_orders, R.drawable.indian_soups_and_salads, R.drawable.beers,
-        		R.drawable.wine
-        };
+//        int icons[]=
+//        {
+//        		R.drawable.appetizers, R.drawable.vegeterian_dishes, R.drawable.dosas,
+//        		R.drawable.mayura_uttapam, R.drawable.chicken_dishes, R.drawable.other_meat_and_sea_food,
+//        		R.drawable.lunch_and_dinner_specials, R.drawable.mayura_specials, R.drawable.rice_dishes,
+//        		R.drawable.desserts, R.drawable.baverages, R.drawable.indian_breads,
+//        		R.drawable.indian_side_orders, R.drawable.indian_soups_and_salads, R.drawable.beers,
+//        		R.drawable.wine
+//        };
         
         Resources res = getResources();
 
-        TypedArray mi = res.obtainTypedArray(R.array.menu_items);
+        TypedArray mitems = res.obtainTypedArray(R.array.menu_items);
         
-        String items[]= new String[mi.length()];
-        for(int i=0;i<mi.length();i++)
-        	items[i]=mi.getString(i);
+        String items[]= new String[mitems.length()];
+        for(int i=0;i<mitems.length();i++)
+        	items[i]=mitems.getString(i);
+
+        TypedArray micons = res.obtainTypedArray(R.array.menu_items_drawables);
+        
+        Drawable icons[]= new Drawable[micons.length()];
+        for(int i=0;i<micons.length();i++)
+        	icons[i]=micons.getDrawable(i);
 
 //        int icons[]= res.getIntArray(R.array.menu_items_drawables);
         

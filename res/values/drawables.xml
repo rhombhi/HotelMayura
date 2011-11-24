@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="menu_items_drawables">
+    	<item>@drawable/appetizers</item>
+    	<item>@drawable/vegeterian_dishes</item>
+    	<item>@drawable/dosas</item>
+    	<item>@drawable/mayura_uttapam</item>
+    	<item>@drawable/chicken_dishes</item>
+    	<item>@drawable/other_meat_and_sea_food</item>
+    	<item>@drawable/lunch_and_dinner_specials</item>
+    	<item>@drawable/mayura_specials</item>
+    	<item>@drawable/rice_dishes</item>
+    	<item>@drawable/desserts</item>
+    	<item>@drawable/baverages</item>
+    	<item>@drawable/indian_breads</item>
+    	<item>@drawable/indian_side_orders</item>
+    	<item>@drawable/indian_soups_and_salads</item>
+    	<item>@drawable/beers</item>
+    	<item>@drawable/wine</item>
+    </array> 
+</resources>
