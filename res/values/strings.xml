@@ -10,10 +10,13 @@
     <string name="menu_detail_title">Extended Menu</string>
     <!-- Contact Us -->
     <string name="contact_us_title">Contact Us</string>
+    <string name="address_title">Address</string>
     <string name="address_cc">Mayura Restaurant Inc, 10406 Venice Boulevard,Culver City, CA 90232</string>
     <string name="address_la">1277 West Jefferson Blvd, Los Angeles, CA, 90007 </string>
+    <string name="phone_title">Phone</string>
     <string name="phone_cc"> 310-559-9644</string>
     <string name="phone_la">323 766 9775</string>
+    <string name="hours_title">Working Hours</string>
     <string name="hours_cc"> 310-559-9644</string>
     <string name="hours_la">323 766 9775</string>
     <!-- About Us -->
@@ -23,7 +26,7 @@
     <string name="reviews_title">Reviews</string>
 
     <!-- Color -->
-	<color name="gray">#FBB117</color>
-	<color name="white">#A0A0A0</color>
+	<color name="yellow">#FBB117</color>
+	<color name="gray">#A0A0A0</color>
 	    
 </resources>

@@ -1,15 +1,21 @@
 package com.hotelmayura;
 
+import com.hotelmayura.database.Columns;
+import com.hotelmayura.database.RAFDatabaseAdapter;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 
 public class Splashscreen extends Activity 
 {
 	private Context CONTEXT = this;
 	private Handler handler = new Handler();
+	
+	private boolean shouldResume=false;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) 
@@ -17,7 +23,34 @@ public class Splashscreen extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
         
-        handler.postDelayed(exitSplashScreen, 3000);
+        RAFDatabaseAdapter dbAdapter = new RAFDatabaseAdapter(CONTEXT);
+        
+    	dbAdapter.open();
+
+		String[] tableNames={"Reviews"};
+		
+		String[][] names = new String[tableNames.length][];
+		String[][] types = new String[tableNames.length][];
+		String[][] constraints = new String[tableNames.length][];
+		
+		names[0] = new String[]{"_id","name", "ambience", "qos", "food", "comment"};
+		types[0] = new String[]{"integer","text","integer","integer","integer","text"};
+		constraints[0] = new String[]{"primary key", "", "", "", "", ""};
+
+		Columns[][] members=new Columns[tableNames.length][];
+		for(int i=0;i<tableNames.length;i++)
+		{
+			members[i]= new Columns[types[i].length];
+			for(int j =0;j<types[i].length;j++)
+			{
+//				Log.v(this.getClass().getSimpleName()+"--", "i="+i+"..j="+j);
+				members[i][j]=new Columns(names[i][j],types[i][j],constraints[i][j]);
+				Log.v(this.getClass().getSimpleName()+"--", i+".."+j+".."+members[i][j].name+members[i][j].type+members[i][j].constraint);
+			}
+		}
+		dbAdapter.create(tableNames, members);
+		dbAdapter.close();        
+        handler.postDelayed(exitSplashScreen, 2000);
     }
     
 	private Runnable exitSplashScreen = new Runnable() 
@@ -29,4 +62,16 @@ public class Splashscreen extends Activity
 		}
 	};
 
+	@Override
+	protected void onResume() 
+	{
+		super.onResume();
+		
+		if(shouldResume)
+	        handler.postDelayed(exitSplashScreen, 3000);
+
+		shouldResume=true;
+	}
+
+	
 }

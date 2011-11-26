@@ -24,7 +24,7 @@
 	            android:layout_marginRight="20px"
 	            android:textSize="25px"
 	            android:layout_gravity="center_vertical"
-	            android:textColor="@color/gray"/>
+	            android:textColor="@color/yellow"/>
 			</TableRow>
  	</TableLayout>
 </RelativeLayout>

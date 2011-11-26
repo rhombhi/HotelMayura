@@ -54,6 +54,8 @@ public class MenuDetail extends Activity
 
 //        int icons[]= res.getIntArray(R.array.menu_items_drawables);
         
+        Log.v(CONTEXT.getClass().getSimpleName()+"--","items:"+items.length+", desc:"+description.length+", price:"+prices.length);
+
         MenuDetailListAdapter m = new MenuDetailListAdapter(CONTEXT, R.layout.menu_detail_list_layout, R.id.item_name, items, description, prices);
         menuDetailList.setAdapter(m);
 

@@ -38,7 +38,7 @@ public class MenuDetailListAdapter extends ArrayAdapter<String>
         row= inflater.inflate(R.layout.menu_detail_list_layout, parent, false);
         
         String in=titles[position].toLowerCase();
-        in=in.replace(" ", "_").replace("(", "").replace(")", "").replace(",", "");
+        in=in.replace(" ", "_").replace("(", "").replace(")", "").replace(",", "").replace("/", "");
         Log.v(CONTEXT.getClass().getSimpleName()+"--","in:"+in);
         
         Resources res = CONTEXT.getResources();

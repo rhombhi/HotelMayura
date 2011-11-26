@@ -52,6 +52,7 @@
     	<item>"Sliced marinated onion fixed with chickpea flour 6 pcs"</item>
     	<item>"Mix of fresh tomatoes,onions,boiled potatoes and tamarind chutney"</item>
     	<item>"Whole jalapeno fried in chickpea flour"</item>
+    	<item>"Chicken Tikka"</item>
     	<item>"Seekh Kebab Roll"</item>
     	<item>"Assorted Appetizer Basket"</item>
     </array>
@@ -182,7 +183,7 @@
     	<item>"Onion Uthappam"</item>
     	<item>"Onion and Peas Uthappam"</item>
     	<item>"Onion and Hot Chili Uthappam"</item>
-    	<item>"Onion Tomoto and Chili Uthappam"</item>
+    	<item>"Onion Tomato and Chili Uthappam"</item>
     	<item>"Vegetable Uthappam"</item>
     	<item>"Paneer and Peas Uthappam"</item>
     	<item>"Mayura Special Cheese Uthappam"</item>
@@ -537,7 +538,7 @@
     	<item>"Bridlewood Estate Winery Syrah Central Coast"</item>
     	<item>"The Crusher Cabernet Sauvignon Clarksburg"</item>
     	<item>"Peachy Canyon Zinfandel Paso Robles"</item>
-    	<item>"Erdinger Weissbier non-alcoholic Germany"</item>
+    	<item>"Erdinger Weissbier nonalcoholic Germany"</item>
      </array>
      <array name="wine_description">
     	<item>"--"</item>
