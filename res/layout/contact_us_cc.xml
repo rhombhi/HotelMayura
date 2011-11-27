@@ -13,7 +13,7 @@
         android:textSize="30px"
         android:layout_marginRight="10px"
         android:layout_marginLeft="20px"
-        android:layout_marginTop="100px"
+        android:layout_marginTop="70px"
         android:layout_marginBottom="5px"
         android:textStyle="bold"
         android:textColor="@color/yellow"/>
@@ -79,7 +79,7 @@
         android:layout_below="@id/hours_title_cc"
         android:layout_marginRight="10px"
         android:layout_marginLeft="20px"
-        android:layout_marginTop="25px"
+        android:layout_marginTop="5px"
         android:layout_marginBottom="25px"
         android:textColor="@color/gray"/>
     <ImageView

@@ -1,11 +1,12 @@
 package com.hotelmayura;
 
-import com.hotelmayura.database.RAFDatabaseAdapter;
-
 import android.app.Activity;
 import android.content.Context;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.hotelmayura.database.DatabaseAdapter;
 
 public class ReviewsMain extends Activity
 {	
@@ -18,13 +19,19 @@ public class ReviewsMain extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reviews_main);
         
-        RAFDatabaseAdapter dbAdapter = new RAFDatabaseAdapter(CONTEXT);
+        DatabaseAdapter dbAdapter = new DatabaseAdapter(CONTEXT);
         
         reviewsList = (ListView)findViewById(R.id.reviews_list);
 
         dbAdapter.open();
-        dbAdapter.fetchRows("Reviews", new String[]{"name"}, null, null);
+        Cursor c = dbAdapter.fetchRows("Reviews", new String[]{"_id","name"}, null, null);
         dbAdapter.close();
+        
+        int[] to = {R.id.reviewer_name};
+        String[] from = {"name"}; 
+        
+        ReviewsListAdapter r = new ReviewsListAdapter(CONTEXT, R.id.reviews_list, c, from, to);
+        reviewsList.setAdapter(r);
         
         
     }

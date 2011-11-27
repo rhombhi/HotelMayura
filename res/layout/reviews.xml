@@ -3,68 +3,74 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    <RatingBar
-        android:id="@+id/ratingBar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp" />
-    <RatingBar
-        android:id="@+id/ratingBar2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ratingBar1"
-        android:layout_below="@+id/ratingBar1"
-        android:layout_marginTop="71dp" />
-    <RatingBar
-        android:id="@+id/ratingBar3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ratingBar2"
-        android:layout_below="@+id/ratingBar2"
-        android:layout_marginTop="54dp" />
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ratingBar3"
-        android:layout_alignRight="@+id/ratingBar3"
-        android:layout_below="@+id/ratingBar3"
-        android:layout_marginTop="24dp"
-        android:inputType="textPostalAddress" />
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/ambience_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ratingBar2"
-        android:layout_below="@+id/ratingBar1"
-        android:layout_marginTop="45dp"
-        android:text="Quality of Service"
-        android:textSize="25px" />
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="100px"
-        android:layout_alignLeft="@+id/ratingBar1"
-        android:layout_alignParentTop="true"
         android:text="Ambience"
         android:textSize="25px"
-        android:layout_marginTop="10dp" />
-    <Button
-        android:id="@+id/button1"
+        android:layout_marginTop="20px" />
+    <RatingBar
+        android:id="@+id/ambience"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="Submit" />
+        android:layout_marginTop="5px"
+        android:layout_below="@id/ambience_tv" />
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/qos_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ratingBar3"
-        android:layout_below="@+id/ratingBar2"
-        android:layout_marginTop="28dp"
+        android:layout_below="@id/ambience"
+        android:layout_marginTop="20px"
+        android:text="Quality of Service"
+        android:textSize="25px" />
+    <RatingBar
+        android:id="@+id/qos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5px"
+        android:layout_below="@id/qos_tv" />
+    <TextView
+        android:id="@+id/food_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qos"
+        android:layout_marginTop="20px"
         android:text="Food"
         android:textSize="25px" />
+    <RatingBar
+        android:id="@+id/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_tv"
+        android:layout_marginTop="5px" />
+    <EditText
+        android:id="@+id/comments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food"
+        android:layout_marginTop="20px"
+        android:inputType="textMultiLine"
+        android:gravity="top|left"
+        android:textColor="@color/gray"
+        android:text="Additional comments"
+        android:minLines="3"
+        android:lines="3" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comments"
+        android:layout_marginTop="20px"
+        android:textColor="@color/gray"
+        android:text="Annonymous"
+        android:gravity="top|left"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10px"
+        android:layout_below="@id/name"
+        android:text="Submit" />
 </RelativeLayout>

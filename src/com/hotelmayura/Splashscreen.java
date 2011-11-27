@@ -1,14 +1,14 @@
 package com.hotelmayura;
 
-import com.hotelmayura.database.Columns;
-import com.hotelmayura.database.RAFDatabaseAdapter;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+
+import com.hotelmayura.database.Columns;
+import com.hotelmayura.database.DatabaseAdapter;
 
 public class Splashscreen extends Activity 
 {
@@ -23,7 +23,7 @@ public class Splashscreen extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
         
-        RAFDatabaseAdapter dbAdapter = new RAFDatabaseAdapter(CONTEXT);
+        DatabaseAdapter dbAdapter = new DatabaseAdapter(CONTEXT);
         
     	dbAdapter.open();
 
@@ -73,5 +73,13 @@ public class Splashscreen extends Activity
 		shouldResume=true;
 	}
 
+	@Override
+	public void onBackPressed() 
+	{
+		super.onBackPressed();
+		handler.removeCallbacks(exitSplashScreen);
+	}
+
+	
 	
 }

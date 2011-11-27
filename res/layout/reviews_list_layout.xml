@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 	<TextView 
-        android:id="@+id/detail_item_name"
+        android:id="@+id/review_no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="70px"
@@ -13,7 +13,7 @@
 		android:layout_toRightOf="@id/detail_item_pic"
 		android:textColor="@color/yellow"/>
 	<TextView 
-        android:id="@+id/detail_item_price"
+        android:id="@+id/reviewer_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="10px"

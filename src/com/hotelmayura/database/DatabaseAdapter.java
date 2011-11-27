@@ -8,27 +8,27 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
-public class RAFDatabaseAdapter 
+public class DatabaseAdapter 
 {
 	private Context CONTEXT;
 	private SQLiteDatabase database;
-	private RAFDatabaseHelper dbHelper;
+	private DatabaseHelper dbHelper;
 	
 	private static final String DB_PATH="/data/data/com.directv.referafriend/databases/ReferAFriend";
 	
-	public RAFDatabaseAdapter(Context context) 
+	public DatabaseAdapter(Context context) 
 	{
 		this.CONTEXT = context;
 	}
 
-	public RAFDatabaseAdapter open()
+	public DatabaseAdapter open()
 	{
-		dbHelper = new RAFDatabaseHelper(CONTEXT);
+		dbHelper = new DatabaseHelper(CONTEXT);
 		database = dbHelper.getWritableDatabase();
 		return this;
 	}
 
-	public RAFDatabaseAdapter create(String[] tableNames, Columns[][] members) throws SQLException 
+	public DatabaseAdapter create(String[] tableNames, Columns[][] members) throws SQLException 
 	{
 		dbHelper.createTables(tableNames, members, database);
 		return this;

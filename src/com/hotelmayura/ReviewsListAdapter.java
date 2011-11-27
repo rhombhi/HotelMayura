@@ -2,24 +2,21 @@ package com.hotelmayura;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.drawable.Drawable;
+import android.database.Cursor;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
-public class ReviewsListAdapter extends ArrayAdapter<String>
+public class ReviewsListAdapter extends SimpleCursorAdapter
 {
-	private String[] titles;
-	private Drawable[] icons;
+	Cursor c=null;
 	
-	public ReviewsListAdapter(Context context, int resource, int textViewResourceId, String []titles, Drawable[] icons) 
+	public ReviewsListAdapter(Context context, int layout, Cursor c, String[] from, int[] to) 
 	{
-		super(context, resource, textViewResourceId, titles);
-		this.titles = titles;
-		this.icons=icons;
+		super(context, layout, c, from, to);
+		this.c = c;
 	}
 
 
@@ -29,13 +26,15 @@ public class ReviewsListAdapter extends ArrayAdapter<String>
         LayoutInflater inflater = ((Activity)parent.getContext()).getLayoutInflater();
         View row;
 
-        row= inflater.inflate(R.layout.menu_list_layout, parent, false);
+        row= inflater.inflate(R.layout.reviews_list_layout, parent, false);
         
-        Button itemPicture = (Button) row.findViewById(R.id.item_pic);
-        itemPicture.setBackgroundDrawable(icons[position]);
+        c.moveToPosition(position);
         
-        TextView itemName = (TextView) row.findViewById(R.id.item_name);
-        itemName.setText(titles[position]);
+        TextView review_number = (TextView) row.findViewById(R.id.review_no);
+        review_number.setTag("Review " + position);
+        
+        TextView reviewerName = (TextView) row.findViewById(R.id.reviewer_name);
+        reviewerName.setText(c.getString(c.getColumnIndex("name")));
         
         
 		return row;

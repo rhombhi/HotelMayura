@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class RAFDatabaseHelper extends SQLiteOpenHelper 
+public class DatabaseHelper extends SQLiteOpenHelper 
 {
 	private static final String DATABASE_NAME = "ReferAFriend";
 
@@ -18,12 +18,12 @@ public class RAFDatabaseHelper extends SQLiteOpenHelper
 //	private static final String CONTACT_TABLE_CREATE = "create table "+CONTACT_TABLE_NAME+" (_id integer primary key , " + "name text not null, times integer not null);";
 	
 	private String[] tableNames;
-	public RAFDatabaseHelper(Context context, String[] tableNames, Columns[][] members) 
+	public DatabaseHelper(Context context, String[] tableNames, Columns[][] members) 
 	{
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
 		this.tableNames=tableNames;
 	}
-	public RAFDatabaseHelper(Context context) 
+	public DatabaseHelper(Context context) 
 	{
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
 	}
@@ -52,7 +52,7 @@ public class RAFDatabaseHelper extends SQLiteOpenHelper
 	@Override
 	public void onUpgrade(SQLiteDatabase database, int oldVersion,int newVersion) 
 	{
-		Log.w(RAFDatabaseHelper.class.getName(), "Upgrading database from version " + oldVersion + " to "+ newVersion + ", which will destroy all old data");
+		Log.w(DatabaseHelper.class.getName(), "Upgrading database from version " + oldVersion + " to "+ newVersion + ", which will destroy all old data");
 		for(int i=0;i<tableNames.length;i++)
 			database.execSQL("DROP TABLE IF EXISTS "+tableNames[i]);
 		onCreate(database);
