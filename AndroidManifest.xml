@@ -5,10 +5,16 @@
     android:versionName="1.0" >
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
+
+		<uses-library android:name="com.google.android.maps" />
+    
         <activity
             android:label="@string/splashscreen_title"
             android:name=".Splashscreen" >
@@ -34,9 +40,14 @@
             android:label="@string/contact_us_title"
             android:name=".ContactUsLA">
         </activity>
-                    <activity
+        <activity
             android:label="@string/contact_us_title"
             android:name=".ContactUsCC">
+        </activity>
+        <activity
+            android:label="Map"
+            android:name=".Maps"
+            android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         <activity
             android:label="@string/menu_title"
@@ -56,4 +67,6 @@
         </activity>
     </application>
 
+<!--fingerprin: A1:1A:B3:81:58:D4:25:BC:91:51:9D:F2:45:83:99:0F
+	key: 01ZJQhTxA3UoA2JtwxW27_56_raRnWiJRd_mI6A -->
 </manifest>

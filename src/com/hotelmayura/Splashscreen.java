@@ -33,7 +33,7 @@ public class Splashscreen extends Activity
 		String[][] types = new String[tableNames.length][];
 		String[][] constraints = new String[tableNames.length][];
 		
-		names[0] = new String[]{"_id","name", "ambience", "qos", "food", "comment"};
+		names[0] = new String[]{"_id","name", "ambience", "qos", "food", "comments"};
 		types[0] = new String[]{"integer","text","integer","integer","integer","text"};
 		constraints[0] = new String[]{"primary key", "", "", "", "", ""};
 

@@ -13,7 +13,7 @@
         android:textSize="30px"
         android:layout_marginRight="10px"
         android:layout_marginLeft="20px"
-        android:layout_marginTop="70px"
+        android:layout_marginTop="50px"
         android:layout_marginBottom="5px"
         android:textStyle="bold"
         android:textColor="@color/yellow"/>
@@ -51,15 +51,25 @@
 	    android:layout_height="wrap_content"
         android:textSize="30px"
         android:layout_below="@id/phone_title_la"
-        android:layout_marginRight="10px"
         android:layout_marginLeft="20px"
         android:layout_marginTop="5px"
         android:layout_marginBottom="25px"
         android:textColor="@color/gray"/>
+	<Button
+		android:id="@+id/phone_icon_la"
+		android:layout_width="wrap_content"
+		android:layout_height="50px"
+		android:layout_margin="10px"
+		android:layout_toRightOf="@id/phone_la"
+        android:layout_below="@id/phone_title_la"
+        android:layout_marginRight="10px"
+        android:layout_marginBottom="25px"
+        android:textSize="15px"
+        android:text="Call LA Branch" />
     <TextView  
 		android:id="@+id/hours_title_la"
 		android:text="@string/hours_title"
-	    android:layout_width="220px" 
+	    android:layout_width="wrap_content" 
 	    android:layout_height="wrap_content" 
         android:singleLine="false"
         android:textSize="30px"
@@ -73,7 +83,7 @@
     <TextView  
 		android:id="@+id/hours_la"
 		android:text="@string/hours_la"
-	    android:layout_width="220px" 
+	    android:layout_width="wrap_content" 
 	    android:layout_height="wrap_content" 
         android:textSize="30px"
         android:layout_below="@id/hours_title_la"

@@ -9,7 +9,7 @@
 		android:layout_width="fill_parent" 
 	    android:layout_height="wrap_content" 
         android:textSize="25px"
-        android:background="@color/gray"/>
+        android:background="@color/yellow"/>
 	<ListView 
 		android:id="@+id/menu_detail_list"
 		android:layout_width="fill_parent"

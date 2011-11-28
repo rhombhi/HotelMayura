@@ -50,7 +50,7 @@ public class Dashboard extends Activity
 					startActivity(aboutUsIntent);
 					break;
 				case 3:
-					Intent reviewsIntent = new Intent(CONTEXT, Reviews.class);
+					Intent reviewsIntent = new Intent(CONTEXT, ReviewsMain.class);
 					startActivity(reviewsIntent);
 					break;
 				default:

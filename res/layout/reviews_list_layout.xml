@@ -8,17 +8,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="70px"
-        android:textSize="25px"
+        android:textSize="30px"
         android:layout_gravity="center_vertical"
-		android:layout_toRightOf="@id/detail_item_pic"
-		android:textColor="@color/yellow"/>
+		android:textColor="@color/yellow"
+		android:layout_marginLeft="50px"
+		android:layout_marginTop="10px"/>
 	<TextView 
         android:id="@+id/reviewer_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10px"
+        android:layout_marginRight="50px"
+		android:layout_marginBottom="10px"
         android:textSize="25px"
         android:layout_gravity="center_vertical"
 		android:layout_alignParentRight="true"
-		android:textColor="@color/yellow"/>
+		android:layout_alignParentBottom="true"
+		android:textColor="@color/gray"
+		android:layout_below="@id/review_no" />
 </RelativeLayout>

@@ -4,15 +4,17 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" 
     android:background="@drawable/background">
-	<ListView 
-		android:id="@+id/reviews_list"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"/>
+		<ListView 
+			android:id="@+id/reviews_list"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="50px" />
     <Button
         android:id="@+id/submit_new"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Submit new Survey" />  
+        android:layout_below="@id/reviews_list"
+		android:layout_marginTop="20px"
+        android:text="Submit new Survey" />
 </RelativeLayout>

@@ -31,10 +31,10 @@ public class ReviewsListAdapter extends SimpleCursorAdapter
         c.moveToPosition(position);
         
         TextView review_number = (TextView) row.findViewById(R.id.review_no);
-        review_number.setTag("Review " + position);
+        review_number.setText("Review " + (position+1));
         
         TextView reviewerName = (TextView) row.findViewById(R.id.reviewer_name);
-        reviewerName.setText(c.getString(c.getColumnIndex("name")));
+        reviewerName.setText("- "+c.getString(c.getColumnIndex("name")));
         
         
 		return row;
