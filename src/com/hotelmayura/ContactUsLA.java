@@ -46,6 +46,9 @@ public class ContactUsLA extends Activity
 			public void onClick(View arg0) 
 			{
 				Intent mapIntent = new Intent(CONTEXT, Maps.class);
+				Bundle b = new Bundle();
+			    b.putString("page", "LA");
+			    mapIntent.putExtras(b);
 				startActivity(mapIntent);
 			}
 		});

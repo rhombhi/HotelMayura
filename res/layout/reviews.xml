@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:text="Ambience"
         android:textSize="25px"
-        android:layout_marginTop="10px" />
+        android:layout_marginTop="10px"
+        android:textColor="@color/yellow" />
     <RatingBar
         android:id="@+id/ambience"
         android:layout_width="wrap_content"
@@ -23,7 +24,8 @@
         android:layout_below="@id/ambience"
         android:layout_marginTop="15px"
         android:text="Quality of Service"
-        android:textSize="25px" />
+        android:textSize="25px" 
+        android:textColor="@color/yellow" />
     <RatingBar
         android:id="@+id/qos"
         android:layout_width="wrap_content"
@@ -37,7 +39,8 @@
         android:layout_below="@+id/qos"
         android:layout_marginTop="15px"
         android:text="Food"
-        android:textSize="25px" />
+        android:textSize="25px"
+        android:textColor="@color/yellow" />
     <RatingBar
         android:id="@+id/food"
         android:layout_width="wrap_content"

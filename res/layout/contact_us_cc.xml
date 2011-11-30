@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" 
-    android:background="@drawable/background">
+    android:background="@color/black">
      <TextView  
 		android:id="@+id/address_title_cc"
 		android:text="@string/address_title"
@@ -65,7 +65,7 @@
         android:textSize="15px"
         android:layout_marginRight="10px"
         android:layout_marginBottom="25px"
-        android:text="Call CC Branch" />
+        android:text="Call" />
     <TextView  
 		android:id="@+id/hours_title_cc"
 		android:text="@string/hours_title"

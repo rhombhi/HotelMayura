@@ -47,7 +47,19 @@ public class Maps extends MapActivity
         mapView.setBuiltInZoomControls(true);
         
         mc = mapView.getController();
-        String coordinates[] = {"34.020174", "-118.404272"};
+        String[] coordinates=new String[2];
+        Bundle extras = this.getIntent().getExtras();
+        String s= extras.getString("page");
+        if(s.equals("CC"))
+        {
+        	coordinates[0]= "34.020174";
+        	coordinates[1]= "-118.404272";
+        }
+        else
+        {
+        	coordinates[0] = "34.025512";
+        	coordinates[1]= "-118.293895";
+        }
         double lat = Double.parseDouble(coordinates[0]);
         double lng = Double.parseDouble(coordinates[1]);
  

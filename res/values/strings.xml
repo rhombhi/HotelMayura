@@ -6,27 +6,29 @@
     <!-- Dashboard -->
     <string name="dashboard_title">Dashboard</string>
     <!-- Menu -->
-    <string name="menu_title">Menu</string>
-    <string name="menu_detail_title">Extended Menu</string>
+    <string name="menu_title">Dashboard > Menu</string>
+    <string name="menu_detail_title">Dashboard > Menu > Extended Menu</string>
     <!-- Contact Us -->
-    <string name="contact_us_title">Contact Us</string>
+    <string name="contact_us_title">Dashboard > Contact Us</string>
     <string name="address_title">Address</string>
     <string name="address_cc">10406 Venice Boulevard,Culver City, CA 90232</string>
     <string name="address_la">1277 West Jefferson Blvd, Los Angeles, CA, 90007 </string>
     <string name="phone_title">Phone</string>
     <string name="phone_cc"> 310-559-9644</string>
-    <string name="phone_la">323 766 9775</string>
+    <string name="phone_la">323-766-9775</string>
     <string name="hours_title">Working Hours</string>
     <string name="hours_cc">Lunch Buffet: 11am to 3pm\nDinner: 5 pm to 10 pm</string>
     <string name="hours_la">Lunch Buffet: 11am to 3pm (except Mondays)\nDinner: 5 pm to 10 pm</string>
     <!-- About Us -->
-    <string name="about_us_title">About Us</string>
+    <string name="about_us_title">Dashboard > About Us</string>
     <string name="about_us_text">Traditional foods are an enduring part of our culture. Traditional taste preservation has become a critical undertaking for Mayura Restaurant Inc and we are proud of the work that we have done to preserve and restore our traditional food. We at Mayura belive that food is a celebration of life. Our food is inspired by the authentic home cooking of beautiful and taste-rich India, where our chefs are specially trained. We look forward to welcoming you in the Mayura Indian restaurant for one night dinner! Don\'t forget to have a look at the daily specialty board where you will find some pleasant surprises.</string>
     <!-- Reviews -->
-    <string name="reviews_title">Reviews</string>
+    <string name="reviews_title">Dashboard > Survey</string>
+    <string name="submit_review">Dashboard > Survey > Submit Review</string>
 
     <!-- Color -->
 	<color name="yellow">#FBB117</color>
 	<color name="gray">#A0A0A0</color>
+	<color name="black">#000000</color>
 	    
 </resources>

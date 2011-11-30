@@ -47,7 +47,10 @@ public class ContactUsCC extends Activity
 			public void onClick(View arg0) 
 			{
 				Intent mapIntent = new Intent(CONTEXT, Maps.class);
-				startActivity(mapIntent);
+				Bundle b = new Bundle();
+			    b.putString("page", "CC");
+			    mapIntent.putExtras(b);
+			    startActivity(mapIntent);
 			}
 		});
     }

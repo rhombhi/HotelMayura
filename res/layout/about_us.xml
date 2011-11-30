@@ -3,17 +3,19 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@drawable/background">
+    android:background="@color/black">
 	<ImageView
 		android:id="@+id/about_us_main_image" 
 		android:layout_width="wrap_content"
-		android:layout_height="270px"
-		android:src="@drawable/about_us_main_image"/>
+		android:layout_height="wrap_content"
+		android:src="@drawable/about_us_main_image"
+		android:layout_alignParentTop="true"
+		android:scaleType="fitXY"/>
     <ScrollView android:id="@+id/ScrollView01"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:layout_below="@id/about_us_main_image">
-	<TextView  
+	<ImageView  
 		android:id="@+id/about_us_text"
 		android:text="@string/about_us_text"
 	    android:layout_width="wrap_content" 
@@ -23,6 +25,7 @@
 	    android:layout_marginTop="10px"
 	    android:layout_marginLeft="10px"
 	    android:layout_marginRight="10px"
-	    android:textColor="@color/yellow"/>
+	    android:textColor="@color/yellow"
+	    android:src="@drawable/text"/>
 	</ScrollView>
 </RelativeLayout>

@@ -62,7 +62,7 @@
             android:name=".ReviewsMain">
         </activity>
         <activity
-            android:label="@string/reviews_title"
+            android:label="@string/submit_review"
             android:name=".Reviews">
         </activity>
     </application>

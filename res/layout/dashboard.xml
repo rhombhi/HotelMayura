@@ -3,20 +3,20 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" 
-    android:background="@drawable/background">
+    android:background="@color/black">
 	<ImageView
 		android:id="@+id/dashboard_img" 
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:src="@drawable/logo2"/>
+		android:src="@drawable/dashboard_image"
+		android:layout_alignParentTop="true"
+		android:scaleType="fitXY"/>
     <GridView 
 		xmlns:android="http://schemas.android.com/apk/res/android"
  		android:id="@+id/dashboard_gridview"
 	   	android:layout_width="wrap_content" 
 	    android:layout_height="fill_parent"
 	    android:numColumns="2"
-	    android:layout_marginLeft="30px"
-	    android:layout_marginTop="50px"
 	    android:layout_gravity="center"
 	    android:layout_centerVertical="true"
 	    android:layout_below="@id/dashboard_img"/>

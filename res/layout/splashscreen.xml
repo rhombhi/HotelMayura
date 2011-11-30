@@ -7,7 +7,7 @@
 		android:id="@+id/splash_screen_image" 
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
-		android:src="@drawable/splash3"/>
+		android:src="@drawable/splash"/>
 	<ProgressBar 
 		android:id="@+id/splash_screen_progressbar"
 		style="@android:style/Widget.ProgressBar.Small"
@@ -16,5 +16,5 @@
 		android:layout_alignParentBottom="true"
 		android:layout_centerInParent="true"
 		android:visibility="visible"
-		android:layout_marginBottom="120px"/>
+		android:layout_marginBottom="300px"/>
 </RelativeLayout>

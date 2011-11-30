@@ -11,7 +11,7 @@
     	<item>"Mayura specials"</item>
     	<item>"Rice Dishes"</item>
     	<item>"Desserts"</item>
-    	<item>"Baverages"</item>
+    	<item>"Beverages"</item>
     	<item>"Indian Breads"</item>
     	<item>"Indian Side Orders"</item>
     	<item>"Indian Soups and Salads"</item>
@@ -267,7 +267,7 @@
     	<item>"Long pieces of lamb"</item>
    	</array>
     <array name="other_meat_and_sea_food_prices">
-    	<item>"$.95"</item>
+    	<item>"$8.95"</item>
     	<item>"$8.95"</item>
     	<item>"$8.95"</item>
     	<item>"$8.95"</item>
